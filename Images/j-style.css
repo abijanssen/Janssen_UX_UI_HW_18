@@ -1,0 +1,73 @@
+.nav {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    list-style-type: none;
+    padding: 15px;
+}
+.headerMenu li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.headerMenu {
+    display: flex;
+    padding: 10px;
+}
+
+.logo {
+    padding: 1%;
+    text-align: center; 
+}
+
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+   width: 500px;
+   margin: 0 auto; 
+   padding: 50px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    width: 33%;
+    margin: 15px;
+}
+
+.mySkills {
+    margin: 25px;
+}
+.myWork {
+    margin: 25px;
+}
+.workGrid {
+   display: grid; 
+   grid-template-areas: 'myArea myArea myArea myArea myArea';
+}
+
+.footerMenu li {
+    color: white;
+    padding: 15px; 
+    list-style-type: none;
+}
+
+.footerMenu {
+    display: flex;
+    padding: 10px;
+}
+
+footer {
+    background-color: #373738;
+    padding: 25px;  
+}
